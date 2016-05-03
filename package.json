@@ -1,0 +1,35 @@
+{
+  "name": "nypl-registry-serialization-archives",
+  "version": "1.0.0",
+  "description": "Native ingest archives json to registry rdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-registry/serialization-archives.git"
+  },
+  "keywords": [
+    "nypl-registry"
+  ],
+  "author": "matt miller <thisismattmiller@gmail.com> (http://twitter.com/thisismmiller)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nypl-registry/serialization-archives/issues"
+  },
+  "homepage": "https://github.com/nypl-registry/serialization-archives",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "highland": "^2.7.4",
+    "nypl-registry-utils-database": "nypl-registry/utils-database",
+    "nypl-registry-utils-serialization": "nypl-registry/utils-serialization",
+    "nypl-registry-utils-lexicon" : "nypl-registry/utils-lexicon",
+    "nypl-registry-utils-normalize" : "nypl-registry/utils-normalize"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0",
+    "standard": "^6.0.8"
+  }
+}
